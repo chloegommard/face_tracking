@@ -1,0 +1,106 @@
+﻿2026-03-03 10:55:51.600 INFO  [15244] [loggerInit@18] **********************************************
+2026-03-03 10:55:51.600 INFO  [15244] [loggerInit@19]  OrbbecViewer launched! Welcome!! 
+2026-03-03 10:55:51.600 INFO  [15244] [loggerInit@20]  	- Version: V1.10.27
+2026-03-03 10:55:51.600 INFO  [15244] [loggerInit@21]  	- Author: 
+2026-03-03 10:55:51.600 INFO  [15244] [loggerInit@22]  	- E-Mail: 
+2026-03-03 10:55:51.600 INFO  [15244] [loggerInit@23]  	- Company: orbbec
+2026-03-03 10:55:51.600 INFO  [15244] [loggerInit@24]  	- Website: http://www.orbbec.com.cn/
+2026-03-03 10:55:51.600 INFO  [15244] [loggerInit@25] **********************************************
+2026-03-03 10:55:54.250 INFO  [15244] [OBSensorExt::setCurrentStreamProfile@347] setStreamProfile@OB_STREAM_DEPTH: 640x576 15fps Y16
+2026-03-03 10:55:54.250 INFO  [15244] [OBSensorExt::setCurrentStreamProfile@347] setStreamProfile@OB_STREAM_IR: 640x576 15fps Y16
+2026-03-03 10:55:54.251 INFO  [15244] [OBSensorExt::setCurrentStreamProfile@347] setStreamProfile@OB_STREAM_COLOR: 1920x1080 15fps MJPEG
+2026-03-03 10:55:56.214 INFO  [37672] [PropertyManager::syncProperty@442] sync property: 18@IR Mirror -> 0, range: 0 - 1, default: 0
+2026-03-03 10:55:56.214 INFO  [37672] [PropertyManager::syncProperty@442] sync property: 19@IR Flip -> 0, range: 0 - 1, default: 0
+2026-03-03 10:55:56.214 INFO  [37672] [PropertyManager::syncProperty@449] sync property: 116@IR Rotate -> 0, range: 0 - 270, default: 0
+2026-03-03 10:55:56.216 INFO  [37672] [PropertyManager::syncProperty@449] sync property: 2026@IR Sensor Exposure -> 125, range: 20 - 125, default: 125
+2026-03-03 10:55:56.217 INFO  [37672] [PropertyManager::read@566] read property: 2026@IR Sensor Exposure -> 125
+2026-03-03 10:55:56.231 INFO  [37672] [PropertyManager::syncProperty@449] sync property: 2026@IR Sensor Exposure -> 125, range: 20 - 125, default: 125
+2026-03-03 10:55:56.231 INFO  [37672] [OBSensorExt::syncPropertiesFunc@1122] OBSensorExt sync all properties finish.
+2026-03-03 10:55:56.231 INFO  [4664] [PropertyManager::syncProperty@442] sync property: 14@Mirror Depth Stream -> 0, range: 0 - 1, default: 0
+2026-03-03 10:55:56.231 INFO  [4664] [PropertyManager::syncProperty@442] sync property: 15@Flip Depth Stream -> 0, range: 0 - 1, default: 0
+2026-03-03 10:55:56.231 INFO  [4664] [PropertyManager::syncProperty@442] sync property: 18@IR Mirror -> 0, range: 0 - 1, default: 0
+2026-03-03 10:55:56.231 INFO  [4664] [PropertyManager::syncProperty@442] sync property: 19@IR Flip -> 0, range: 0 - 1, default: 0
+2026-03-03 10:55:56.231 INFO  [4664] [PropertyManager::syncProperty@442] sync property: 24@Depth soft filter -> 0, range: 0 - 1, default: 0
+2026-03-03 10:55:56.231 INFO  [4664] [PropertyManager::syncProperty@449] sync property: 40@Max Diff -> 300, range: 1 - 10000, default: 300
+2026-03-03 10:55:56.231 INFO  [4664] [PropertyManager::syncProperty@449] sync property: 41@Max Speckle Size -> 25, range: 1 - 1000, default: 25
+2026-03-03 10:55:56.233 INFO  [4664] [PropertyManager::syncProperty@449] sync property: 43@color frame timestamp offset -> 0, range: 0 - 0, default: 0
+2026-03-03 10:55:56.234 INFO  [4664] [PropertyManager::syncProperty@442] sync property: 81@Mirror RGB Stream -> 0, range: 0 - 1, default: 0
+2026-03-03 10:55:56.234 INFO  [4664] [PropertyManager::syncProperty@442] sync property: 82@Flip RGB Stream -> 0, range: 0 - 1, default: 0
+2026-03-03 10:55:56.236 INFO  [4664] [PropertyManager::syncProperty@442] sync property: 83@Light -> 1, range: 0 - 1, default: 1
+2026-03-03 10:55:56.238 INFO  [4664] [PropertyManager::syncProperty@442] sync property: 89@Heartbeat Detection Enable -> 0, range: 0 - 1, default: 0
+2026-03-03 10:55:56.239 INFO  [4664] [PropertyManager::syncProperty@449] sync property: 98@IR Mode -> 0, range: 0 - 1, default: 0
+2026-03-03 10:55:56.239 INFO  [4664] [PropertyManager::syncProperty@449] sync property: 115@Rotate RGB Stream -> 0, range: 0 - 270, default: 0
+2026-03-03 10:55:56.239 INFO  [4664] [PropertyManager::syncProperty@449] sync property: 116@IR Rotate -> 0, range: 0 - 270, default: 0
+2026-03-03 10:55:56.239 INFO  [4664] [PropertyManager::syncProperty@449] sync property: 118@Rotate Depth Stream -> 0, range: 0 - 270, default: 0
+2026-03-03 10:55:56.241 INFO  [4664] [PropertyManager::syncProperty@449] sync property: 121@USB Power State -> 1, range: 0 - 1, default: 0
+2026-03-03 10:55:56.243 INFO  [4664] [PropertyManager::syncProperty@449] sync property: 122@DC Power State -> 1, range: 0 - 1, default: 0
+2026-03-03 10:55:56.244 INFO  [4664] [PropertyManager::syncProperty@442] sync property: 140@Timer reset function enable -> 0, range: 0 - 1, default: 0
+2026-03-03 10:55:56.246 INFO  [8352] [PropertyManager::syncProperty@442] sync property: 14@Mirror Depth Stream -> 0, range: 0 - 1, default: 0
+2026-03-03 10:55:56.246 INFO  [8352] [PropertyManager::syncProperty@442] sync property: 15@Flip Depth Stream -> 0, range: 0 - 1, default: 0
+2026-03-03 10:55:56.246 INFO  [8352] [PropertyManager::syncProperty@449] sync property: 118@Rotate Depth Stream -> 0, range: 0 - 270, default: 0
+2026-03-03 10:55:56.248 INFO  [8352] [PropertyManager::syncProperty@449] sync property: 2017@Depth Sensor Exposure -> 125, range: 20 - 125, default: 125
+2026-03-03 10:55:56.249 INFO  [8352] [PropertyManager::read@566] read property: 2017@Depth Sensor Exposure -> 125
+2026-03-03 10:55:56.263 INFO  [8352] [PropertyManager::syncProperty@449] sync property: 2017@Depth Sensor Exposure -> 125, range: 20 - 125, default: 125
+2026-03-03 10:55:56.263 INFO  [8352] [OBSensorExt::syncPropertiesFunc@1122] OBSensorExt sync all properties finish.
+2026-03-03 10:55:56.599 INFO  [3084] [PropertyManager::syncProperty@442] sync property: 81@Mirror RGB Stream -> 0, range: 0 - 1, default: 0
+2026-03-03 10:55:56.599 INFO  [3084] [PropertyManager::syncProperty@442] sync property: 82@Flip RGB Stream -> 0, range: 0 - 1, default: 0
+2026-03-03 10:55:56.599 INFO  [3084] [PropertyManager::syncProperty@449] sync property: 115@Rotate RGB Stream -> 0, range: 0 - 270, default: 0
+2026-03-03 10:55:56.616 INFO  [3084] [PropertyManager::syncProperty@442] sync property: 2000@Color Sensor Auto Exposure -> 1, range: 0 - 1, default: 1
+2026-03-03 10:55:56.617 INFO  [3084] [PropertyManager::syncProperty@449] sync property: 2001@Color Sensor Exposure -> 200, range: 1 - 300, default: 200
+2026-03-03 10:55:56.618 INFO  [3084] [PropertyManager::syncProperty@449] sync property: 2002@Color Sensor Gain -> 0, range: 0 - 80, default: 0
+2026-03-03 10:55:56.619 INFO  [3084] [PropertyManager::syncProperty@442] sync property: 2003@Auto White Balance -> 1, range: 0 - 1, default: 1
+2026-03-03 10:55:56.620 INFO  [3084] [PropertyManager::syncProperty@449] sync property: 2004@UVC image white balance setting -> 6500, range: 2000 - 11000, default: 6500
+2026-03-03 10:55:56.621 INFO  [3084] [PropertyManager::syncProperty@449] sync property: 2005@UVC image brightness -> 10, range: 1 - 20, default: 10
+2026-03-03 10:55:56.621 INFO  [3084] [PropertyManager::syncProperty@449] sync property: 2006@UVC image sharpness setting -> 24, range: 1 - 40, default: 24
+2026-03-03 10:55:56.622 INFO  [3084] [PropertyManager::syncProperty@449] sync property: 2008@UVC image saturation setting -> 64, range: 1 - 255, default: 64
+2026-03-03 10:55:56.623 INFO  [3084] [PropertyManager::syncProperty@449] sync property: 2009@UVC image contrast setting -> 50, range: 1 - 99, default: 50
+2026-03-03 10:55:56.624 INFO  [3084] [PropertyManager::syncProperty@449] sync property: 2015@Power Line Frequency -> 2, range: 0 - 2, default: 2
+2026-03-03 10:55:56.625 INFO  [3084] [PropertyManager::syncProperty@442] sync property: 2034@HDR -> 0, range: 0 - 1, default: 0
+2026-03-03 10:55:56.626 INFO  [3084] [PropertyManager::read@566] read property: 2001@Color Sensor Exposure -> 200
+2026-03-03 10:55:56.637 INFO  [3084] [PropertyManager::syncProperty@449] sync property: 2001@Color Sensor Exposure -> 200, range: 1 - 300, default: 200
+2026-03-03 10:55:56.637 INFO  [3084] [PropertyManager::read@566] read property: 2005@UVC image brightness -> 10
+2026-03-03 10:55:56.651 INFO  [3084] [PropertyManager::syncProperty@449] sync property: 2005@UVC image brightness -> 10, range: 1 - 20, default: 10
+2026-03-03 10:55:56.652 INFO  [3084] [PropertyManager::read@566] read property: 2002@Color Sensor Gain -> 0
+2026-03-03 10:55:56.667 INFO  [3084] [PropertyManager::syncProperty@449] sync property: 2002@Color Sensor Gain -> 0, range: 0 - 80, default: 0
+2026-03-03 10:55:56.668 INFO  [3084] [PropertyManager::read@566] read property: 2004@UVC image white balance setting -> 6500
+2026-03-03 10:55:56.684 INFO  [3084] [PropertyManager::syncProperty@449] sync property: 2004@UVC image white balance setting -> 6500, range: 2000 - 11000, default: 6500
+2026-03-03 10:55:56.684 INFO  [3084] [OBSensorExt::syncPropertiesFunc@1122] OBSensorExt sync all properties finish.
+2026-03-03 10:55:56.685 INFO  [4664] [PropertyManager::syncProperty@442] sync property: 3009@Accel frame correction -> 0, range: 0 - 1, default: 0
+2026-03-03 10:55:56.685 INFO  [4664] [PropertyManager::syncProperty@442] sync property: 3010@Gyro frame correction -> 0, range: 0 - 1, default: 0
+2026-03-03 10:55:56.685 INFO  [4664] [OBDeviceExt::{ctor}::<lambda_5d6faf3e41063b44b3f11206657d27c4>::operator ()@116] OBDeviceExt sync all properties finish.
+2026-03-03 10:56:10.766 INFO  [15244] [OBSensorExt::startStream@846] startStream@Color, witdh=1920, height=1080, fps=15, format=MJPEG
+2026-03-03 10:56:12.094 INFO  [16308] [OBSensorExt::newFrameCallback@61] First frame of Color received: timestamp=1772531772024, systemTimestamp=1772531772094
+2026-03-03 10:56:12.117 INFO  [15244] [ImageSensorMonitorWidget::drawContent@173] Color create texture id:17
+2026-03-03 10:56:35.719 INFO  [15244] [OBSensorExt::startStream@846] startStream@Depth, witdh=640, height=576, fps=15, format=Y16
+2026-03-03 10:56:35.744 INFO  [8348] [OBSensorExt::newFrameCallback@61] First frame of Depth received: timestamp=1772531795708, systemTimestamp=1772531795735
+2026-03-03 10:56:35.922 INFO  [15244] [PropertyManager::read@566] read property: 40@Max Diff -> 16
+2026-03-03 10:56:35.938 INFO  [15244] [PropertyManager::read@566] read property: 41@Max Speckle Size -> 480
+2026-03-03 10:56:35.955 INFO  [15244] [PropertyManager::read@566] read property: 2017@Depth Sensor Exposure -> 125
+2026-03-03 10:56:35.974 INFO  [15244] [PropertyManager::syncProperty@449] sync property: 2017@Depth Sensor Exposure -> 125, range: 20 - 125, default: 125
+2026-03-03 10:56:36.002 INFO  [15244] [ImageSensorMonitorWidget::drawContent@173] Depth create texture id:18
+2026-03-03 10:56:40.266 INFO  [15244] [OBSensorExt::startStream@846] startStream@IR, witdh=640, height=576, fps=15, format=Y16
+2026-03-03 10:56:40.316 INFO  [4636] [OBSensorExt::newFrameCallback@61] First frame of IR received: timestamp=1772531800286, systemTimestamp=1772531800309
+2026-03-03 10:56:40.470 INFO  [15244] [PropertyManager::read@566] read property: 2026@IR Sensor Exposure -> 125
+2026-03-03 10:56:40.487 INFO  [15244] [PropertyManager::syncProperty@449] sync property: 2026@IR Sensor Exposure -> 125, range: 20 - 125, default: 125
+2026-03-03 10:56:40.534 INFO  [15244] [ImageSensorMonitorWidget::drawContent@173] IR create texture id:19
+2026-03-03 10:56:49.009 INFO  [15244] [OBSensorExt::stopStream@870] stopStream@Color
+2026-03-03 10:56:51.535 INFO  [15244] [OBSensorExt::startStream@846] startStream@Color, witdh=1920, height=1080, fps=15, format=MJPEG
+2026-03-03 10:56:52.185 INFO  [15244] [OBSensorExt::stopStream@870] stopStream@Depth
+2026-03-03 10:56:53.412 INFO  [15244] [OBSensorExt::stopStream@870] stopStream@IR
+2026-03-03 10:56:53.412 INFO  [38976] [OBSensorExt::newFrameCallback@61] First frame of Color received: timestamp=1772531812823, systemTimestamp=1772531812891
+2026-03-03 10:56:58.491 INFO  [15244] [OBSensorExt::stopStream@870] stopStream@Color
+2026-03-03 10:56:59.306 INFO  [15244] [PropertyManager::read@566] read property: 40@Max Diff -> 16
+2026-03-03 10:56:59.322 INFO  [15244] [PropertyManager::read@566] read property: 41@Max Speckle Size -> 480
+2026-03-03 11:00:33.399 INFO  [15244] [PropertyManager::read@566] read property: 40@Max Diff -> 16
+2026-03-03 11:00:33.415 INFO  [15244] [PropertyManager::read@566] read property: 41@Max Speckle Size -> 480
+2026-03-03 11:00:34.070 INFO  [15244] [OBSensorExt::startStream@846] startStream@IR, witdh=640, height=576, fps=15, format=Y16
+2026-03-03 11:00:34.084 INFO  [34048] [OBSensorExt::newFrameCallback@61] First frame of IR received: timestamp=1772532034065, systemTimestamp=1772532034079
+2026-03-03 11:00:34.273 INFO  [15244] [PropertyManager::read@566] read property: 2026@IR Sensor Exposure -> 125
+2026-03-03 11:00:34.288 INFO  [15244] [PropertyManager::syncProperty@449] sync property: 2026@IR Sensor Exposure -> 125, range: 20 - 125, default: 125
+2026-03-03 11:00:34.364 INFO  [15244] [ImageSensorMonitorWidget::drawContent@173] IR create texture id:17
+2026-03-03 11:01:15.562 INFO  [15244] [OBSensorExt::stopStream@870] stopStream@IR
+2026-03-03 11:01:16.312 INFO  [15244] [PropertyManager::read@566] read property: 40@Max Diff -> 16
+2026-03-03 11:01:16.328 INFO  [15244] [PropertyManager::read@566] read property: 41@Max Speckle Size -> 480
+2026-03-03 11:01:34.453 INFO  [15244] [ImageSensorMonitorWidget::drawContent@173] D2C create texture id:19
+2026-03-03 11:14:55.105 INFO  [15244] [PropertyManager::read@566] read property: 40@Max Diff -> 16
+2026-03-03 11:14:55.120 INFO  [15244] [PropertyManager::read@566] read property: 41@Max Speckle Size -> 480
